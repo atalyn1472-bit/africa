@@ -4,6 +4,7 @@ import * as React from "react";
 import { countries } from "@/lib/countries";
 import { MapPin, Users, Globe, Building2, Languages, ArrowRight, Users2, PaintBucket } from "lucide-react";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useThemeLanguage } from "@/context/ThemeLanguageContext";
